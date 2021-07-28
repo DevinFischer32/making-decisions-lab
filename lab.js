@@ -101,7 +101,7 @@ let evensArr = []
 
 // for(let i = 0; i < nums.length; i++){
 //   if (nums[i] % 2 ===0){ 
-//     evensArr += nums.slice (i, i + 1)
+//     evensArr.push(nums[i])
 //   }
 // } 
 // console.log (evensArr)
@@ -118,7 +118,21 @@ var score = 74
 
 //Code Here
 
-
+// if (score >= 90){
+// console.log("A")
+// }
+// if(score >= 80 && score <=89){
+//   console.log("B")
+// }
+// if(score >= 70 && score <= 79){
+//   console.log("C")
+// }
+// if(score >= 60 && score <= 69){
+//   console.log("D")
+// }
+// if(score <= 59){
+//   console.log("F")
+// }
 
 ////////// Intermediate Problems //////////
 
@@ -131,12 +145,15 @@ var score = 74
 
 //CODE HERE
 
+// let changeMyMind = !true
+// console.log(changeMyMind)
 
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
 
-
+// let changeMyMind = !!true
+// console.log(changeMyMind)
 
 
 ////////// PROBLEM 10 //////////
@@ -151,12 +168,21 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+// let someNum = myFavoriteNumbers[4]
+// console.log(someNum)
 
 
 // Subscripting (accessing values using their index) an array can fail. What happens if you subscript to the 7th element, but there are not 7 elements in the array? Let's write some code to check for that. 
 // Use an if statement to check the length of the 'myFavoriteNumbers' array. If it's less than 7, log 'There are not enough elements in this array' to the console. If the length is more than 7, reassign the value of 'someNum' to the value of the 7th element in the array. (Hint: how can you make sure that your code works for exactly 7 elements? What index do you use to get the 7th element?)
 
 //Code Here
+
+// if(myFavoriteNumbers.length < 7){
+//   console.log("There are not enough elements in this array")
+// }else if(myFavoriteNumbers.length >= 7){
+//   console.log(myFavoriteNumbers)
+// }else(myFavoriteNumbers.length === 7)
+//   console.log(someNum=myFavoriteNumbers[6])
 
 
 ////////// PROBLEM 11 //////////
@@ -169,6 +195,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
+// for(let i=0; i<listOfNumbers.length; i++){
+//   if(listOfNumbers[i] % 3 ===0){
+//   console.log(listOfNumbers[i] + " is divisible by 3")
+//   }
+// }
 
 ////////// PROBLEM 12 //////////
 // Do not edit the code below.
@@ -181,6 +212,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //Code Here
 
+// for(let i = letters.length -1; i>=0; i--){
+//   console.log(letters[i])
+// }
 
 ////////// Advanced Problems //////////
 
